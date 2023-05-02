@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 
-import { logo } from './assets';
-import { Home, CreatePost } from './page';
-import DarkSwitch from './components/DarkSwitch';
+import { logo } from '@/assets';
+import { Home, CreatePost } from '@/page';
+import { DarkSwitch } from '@/components';
 
 const App = () => (
   <BrowserRouter>
